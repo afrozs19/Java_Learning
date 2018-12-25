@@ -6,11 +6,10 @@ public class Armstrong {
 		
 		int number, temp, result = 0, remainder;
 		
-		Scanner scan = new Scanner(System.in);
-		
 		System.out.println("Enter the number to validate with Armstrong rules");
-		
-		number = scan.nextInt();
+		Scanner scan = new Scanner(System.in);				
+		number = scan.nextInt();		
+		scan.close();
 		
 		temp = number;
 		

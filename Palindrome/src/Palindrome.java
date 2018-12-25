@@ -9,6 +9,7 @@ public class Palindrome {
 		System.out.println("Enter the number for Palindrome check");
 		Scanner scan = new Scanner(System.in);
 		number = scan.nextInt();
+		scan.close();
 		
 		temp_num = number;
 		
